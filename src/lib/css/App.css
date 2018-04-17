@@ -1,0 +1,174 @@
+.home-carousel{
+  max-height: 390px;
+  border-radius: 5px;
+}
+.home-carousel-wrp{
+  padding: 5% 0px;
+  position: relative;
+}
+.my-back{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 540px;
+  z-index: -100;
+  transform: skew(0deg,-15deg);
+  transform-origin: (left bottom);
+  top: -190px;
+  left: 0px;
+  background: linear-gradient(to right, #ed4264, #ffedbc);
+}
+.main-content{
+  min-height: 725px;
+}
+.fa-search{
+  color: white;
+}
+.g-footer{
+  color: #3e4551 !important;
+  background: linear-gradient(to bottom,#f9b09d,white);
+  box-shadow: 0px 0px 5px silver;
+  margin-top: 75px !important;
+}
+.g-footer a{
+  color: #3e4551 !important;
+}
+.card .view{
+ margin: -20px 4% 0 4%;
+ border-radius: 4px;
+ box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.card{
+  margin-top: 50px !important;
+}
+.card .card-list{
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+.card .card-list .desc{
+  font-size: 11px;
+  color: #b0b0b0;
+  padding: 0px 10px;
+}
+.card .card-text{
+  font-size: 17px;
+}
+.card .card-list .card-list-item{
+  list-style: none;
+  padding: 10px 10px 10px 20px;
+  border-bottom: 1px solid #f7f7f7; 
+}
+.list-group-item{
+  border-bottom: 1px solid black !important;
+}
+#app{
+  padding-top: 75px;
+}
+.navbar{
+  background: linear-gradient(to right, #ed4264, #ffedbc);
+}
+.search-card{
+  padding: 30px 23px;
+  margin: 20px 100px;
+  background: white;
+  box-shadow: 0 10px 14px rgba(0,0,0,.2), 0 4px 15px rgba(0,0,0,.2);
+  border-radius: 100px 2px 100px 2px;
+}
+
+/* searchbar */
+.g-srch{
+  width: 100%;
+  padding: 8px 10px 8px 30px;
+  border-radius: 25px;
+  border: transparent;
+  box-shadow: 0px 0px 2px #5e5e5e;
+  background: rgba(250,250,250,0.75);
+  transition: background 0.2s;
+}
+.g-srch:focus{
+  outline: none;
+  background: white;
+}
+.g-search-wrap{
+  position:relative;
+}
+.g-srch-icon{
+  position: absolute;
+  display: inline-block;
+  top: 7px;
+  left: 10px;
+}
+.g-search-wrap .fa-search{
+  color: #5e5e5e;
+}
+/* /searchbar */
+.g-login-btn{
+  border-radius: 50px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.cust-mask .mask{
+  background: linear-gradient(to bottom, rgba(255,0,0,0) 70%, rgba(0,0,0,1));
+  background-attachment: unset !important;
+}
+.admin-panel{
+  margin-top: -100px;
+}
+.admin-panel .admin-p-img{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 2px 15px rgba(0,0,0,0.23);
+  background-image: url(https://mk0tainsights9mcv7wv.kinstacdn.com/wp-content/uploads/2018/01/premiumforrestaurants_0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.carousel-caption{
+  top: 18% !important;
+}
+.terms-wrap{
+  background: white;
+  padding: 20px;
+  border-radius:10px;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19); 
+}
+.italic_text {
+  font-style: italic;
+  font-size: 1.8rem;
+  color: #000;
+  font-family: Georgia, "Lucida Bright", "DejaVu Serif", Constantia, serif;
+  margin: 10px 0;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.scheme-wrap{
+  padding: 10px 50px;
+}
+
+@media (max-width:767px){
+  .scheme-wrap{
+    padding: 0px !important;
+  }
+  .search-card{
+      padding: 12px 15px !important;
+      margin: 10px 10px !important;
+      box-shadow: 0 10px 14px rgba(0,0,0,.2), 0 4px 15px rgba(0,0,0,.2);
+      border-radius: 50px 2px 50px 2px !important;
+  }
+  .search-card img{
+      margin-right: 20px;
+      max-width: 100px;
+  }
+  #app{
+      padding-top: 115px !important;
+  }
+  .carousel-caption{
+    bottom: -30px !important;
+  }
+}
