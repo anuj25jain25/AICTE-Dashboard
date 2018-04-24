@@ -126,7 +126,9 @@
   background-repeat: no-repeat;
   background-position: center
 }
-
+.carousel{
+  overflow: hidden;
+}
 .carousel-caption{
   top: 18% !important;
 }
@@ -149,6 +151,10 @@
 }
 .scheme-wrap{
   padding: 10px 50px;
+}
+.navbar-brand{
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 @media (max-width:767px){

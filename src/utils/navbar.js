@@ -8,7 +8,7 @@ class NavBarr extends React.Component {
             <div>
                 <nav className="row navbar no-gutters fixed-top navbar-expand-lg navbar-dark">
                     <div className="col-6 col-sm-3">
-                    <Link className="navbar-brand" to="/">AICTE</Link>
+                    <Link className="navbar-brand" to="/"><b>AICTE</b></Link>
                     </div>
                     <div className="col-6 col-sm-3 order-sm-3">
                     </div>

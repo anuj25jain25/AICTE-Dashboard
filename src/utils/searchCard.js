@@ -20,12 +20,13 @@ class SearchCard extends React.Component {
                             <h4 className="font-weight-bold">{this.state.title}</h4>
                         </a>
                         <div className="mt-2">
-                            <ul className="list-unstyled">
+                            {/* <ul className="list-unstyled">
                                 <li className="comment-date">
                                     <i className="fa fa-clock-o"></i> temp</li>
-                            </ul>
+                            </ul> */}
                         </div>
-                        <p className="grey-text">{this.state.desc}</p>
+                        <br /><br /><br />
+                        <p className="grey-text"><a href={this.state.desc} target='_blank'>Read More ...</a></p>
                     </div>
                 </div>
                 );
